@@ -25,6 +25,13 @@ pip install alpaca-trade-api
 
 ```
 
+### Alpaca Environment Variables
+
+**APCA_API_KEY_ID** and **APCA_API_SECRET_KEY** environment variables must be configured in the OS or in a .env file (you must create it) in the same diretory as the 
+financial_planning_tools.ipynb file.
+
+A free [Alpaca account](https://app.alpaca.markets/) **is required** in order to obtain the API and secret key. 
+
 ### Jupyter
 
 The application is based on a Jupyter Notebook. The minimum required is a Jupyter Notebook but Jupyter Lab can be installed as well.  Please review the [Jupyter installation instructions](https://jupyter.org/install)
